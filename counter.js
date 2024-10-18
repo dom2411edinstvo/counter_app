@@ -12,7 +12,7 @@ function updateCounterDisplay() {
     counterEl.innerText = counter;
 }
 
-function animateCounter(target, duration = 700) {
+function animateCounter(target, duration = 500) {
     // Блокируем кнопки перед началом анимации
     addOnePoolBtn.disabled = true;
     addTwoPoolsBtn.disabled = true;
